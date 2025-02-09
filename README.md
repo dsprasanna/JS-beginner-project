@@ -12,27 +12,11 @@ This project provides a solution to the N-Queens puzzle using only HTML, CSS, an
 - Visual representation: The solution(s) are displayed on the chessboard.
 - Interactive UI: Users can visualize the placement of queens on the board.
 
-## Demo
 
-[Insert a link to your live demo here]
 
 ## How to Use
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/n-queens-puzzle.git
+    git clone https://github.com/dsprasanna/JS-beginner-project.git
     ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd n-queens-puzzle
-    ```
-
-3. Open the `index.html` file in your web browser:
-    ```bash
-    open index.html
-    ```
-
-4. Enter the size of the board (N) and click on the "Solve" button to see the solution.
-
-## Project Structure
