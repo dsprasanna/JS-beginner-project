@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N-Queens Puzzle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to N-Queens's Puzzle!</h1>
+    <div class="controls">
+      <label for="boardSize">Select Board Size:</label>
+      <select id="boardSize">
+        <option value="4">4x4</option>
+        <option value="5">5x5</option>
+        <option value="6">6x6</option>
+        <option value="7">7x7</option>
+        <option value="8" selected>8x8</option>
+        <option value="9">9x9</option>
+        <option value="10">10x10</option>
+        <option value="11">11x11</option>
+        <option value="12">12x12</option>
+        <option value="13">13x13</option>
+        <option value="14">14x14</option>
+        <option value="15">15x15</option>
+      </select>
+      <button onclick="generateBoard()">Generate Board</button>
+    </div>
+    <div id="gameMessage"></div>
+
+    <div id="boardContainer"></div>
+    <button id="rest-button" onclick="resetBoard()">Reset</button>
+    <script src="script.js"></script>
+  </body>
+</html>
